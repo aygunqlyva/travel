@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 100px;
+}
+.headers{
+    
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    height: 72px;
+    .header{
+        display: flex;
+        .sol{
+            margin-top: 20px;
+            width: 20%;
+        }
+        .sag{
+            margin-top: 30px;
+            display: flex;
+            width: 80%;
+            justify-content: flex-end;
+            .col{
+                &:hover{
+                    .href{
+                    border-bottom: 2px solid #ff6600;
+                    border-top: 2px solid #ff6600;
+                    color: #ff6600;
+
+                    }
+                    .text{
+                        display: block;
+                    }
+                }
+                width: 10%;
+                .href{
+                    transition: 0.6s;
+                    text-decoration: none;
+                    font-size: 12px;
+                    color: #222222;
+                    padding: 32px 34px 23px 34px;
+                }
+                .text{ 
+                    background-color: #fff;
+                    margin-top: 15px;
+                    display: none;
+                    a{
+                        border-bottom: 0.7px solid #bebebee7;
+                        display: block;
+                        text-decoration: none;
+                        font-size: 12px;
+                        color: #8f8e8e;
+                        padding: 12px 10px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.bir{
+    background-image: url("https://demo.nrgthemes.com/projects/premium_travel/wp-content/uploads/revslider/homepage1/main_slide_1.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 15rem ;
+    .hava{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      p{ 
+        font-size: 20px;
+        color: #fff;
+        margin-left: 10px;
+      }
+      i{
+          color: #fff;
+          font-size: 28px;
+          margin-left: 10px;
+      }
+      strong{
+          color: #fff;
+          font-size: 22px;
+          margin-left:10px ;    
+         }
+    }
+    h1{
+        margin-top: 30px;
+        text-align: center;
+        color: #fff;
+        font-size: 60px;
+    }
+    p{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 17px;
+        color: #FFFFFF99;
+        margin-bottom: 50px;
+    }
+    button{
+        transition: 0.6s;
+        cursor: pointer;
+        align-items: center;
+        &:hover{
+          background: none;
+        }
+        span{
+            color: #fff;
+            font-size: 12px;
+        }
+        display: flex;
+        margin: auto;
+        border: 2px solid #ff6600;
+        outline: none;
+        border-radius: 18px;
+        padding: 20px 14px;
+        background: #ff6600;
+        color: #fff;
+        i{
+            color: #fff;
+            font-size: 18px;
+            margin-right: 5px;
+        }
+    }
+
+    .text{
+        transition: 0.6s;
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        a{
+            transition: 0.6s;
+            &:hover{
+                background-color: rgba(0, 3, 5, 0.2);
+            }
+            padding: 16px 25px;
+            text-decoration: none;
+            font-size: 12px;
+            color: #fff;
+            border-left: 1px solid rgba(255, 255, 255, 0.3);
+            border-right: 0.5px solid rgba(255, 255, 255, 0.3);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+        }
+    }
+
+    .text2{
+    display: flex;
+    padding: 6rem 0;
+    background-color: rgba(0, 3, 5, 0.2);
+        .colust{
+            width: 18%;
+            h5{
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+        }
+        .colust2{
+            width: 12%;
+            h5{
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+        }
+        .colust3{
+            width: 182%;
+            h5{
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+        }
+        .colust4{
+            width: 6%;
+            h5{
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+        }
+        .colust5{
+            width: 6%;
+            h5{
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+        }
+        .colust6{
+            width: 6%;
+            h5{
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+        }
+
+    }
+
+
+}
+
+
+
+
+
+
